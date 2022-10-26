@@ -19,6 +19,7 @@ class Song(models.Model):
 
     def __str__(self):
         return self.title
+        
 class Lyric(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     song_id = models.ForeignKey(Song, on_delete=models.CASCADE)
