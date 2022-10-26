@@ -3,7 +3,7 @@
 This is a simple musicapp API. It is built using Django and Django Rest Framework.
 
 
-## Why we created MUSICAPP
+## Why I created MUSICAPP
 Just for practise.
 
 ## Development Setup
